@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Urna Eletronica Digital</title>
+</head>
+<body>
+    
+    <div class="urna">
+        <div class="tela ">
+            <div class="divisao1">
+                <div class="divisao1-left">
+                    <div class="divisao1-1"> 
+                        <span>Seu voto para:</span>
+                    </div><!--divisao1-1-->
+
+                    <div class="divisao1-2">
+                        <span>VEREADOR</span>
+                    </div><!--divisao1-2-->
+
+                    <div class="divisao1-3">
+                        <div class="numero pisca">
+                            
+                        </div><!--numero-->
+                        <div class="numero">
+                            
+                        </div><!--numero-->
+                    </div><!--divisao1-3-->
+
+                    <div class="divisao1-4">
+                            NOME: FULANO <br>
+                            PARTIDO: PSFD <br>
+                            VICE-PREFEIRO: SICRANO
+                    </div><!--divisao1-4--->
+
+                </div><!--divisao1-left-->
+                <div class="divisao1-right">
+                    <div class="divisao1-image">
+                        <img src="assets/images/38111.jpg" alt="imagem do prefeito">
+                        Prefeito
+                    </div><!--divisao1-image-->
+
+                    <div class="divisao1-image small">
+                        <img src="assets/images/38111.jpg" alt="imagem do prefeito">
+                        Vice-Prefeito
+                    </div><!--divisao1-image-->
+                </div><!--divisao1-right-->
+            </div><!--divisao1-->
+            <div class="divisao2">
+                <h3>Aperte a tecla :</h3> 
+                <p><strong>CONFIRMA</strong>para <strong>CONFIRMAR</strong> este voto</p>
+                <p><strong>CORRIGE</strong> para <strong>REINICIAR</strong> este voto</p>
+            </div><!--divisao2-->
+        </div><!--tela-->
+
+        <div class="teclas">
+            <div class="teclasLinha">
+                <div class="teclas-botao" onclick="clicou('1')">1</div>
+                <div class="teclas-botao" onclick="clicou('2')">2</div>
+                <div class="teclas-botao" onclick="clicou('3')">3</div>
+            </div><!--teclasLinha-->
+
+            <div class="teclasLinha">
+                <div class="teclas-botao" onclick="clicou('4')">4</div>
+                <div class="teclas-botao" onclick="clicou('5')">5</div>
+                <div class="teclas-botao" onclick="clicou('6')">6</div>
+            </div><!--teclasLinha-->
+
+            <div class="teclasLinha">
+                <div class="teclas-botao" onclick="clicou('7')">7</div>
+                <div class="teclas-botao" onclick="clicou('8')">8</div>
+                <div class="teclas-botao" onclick="clicou('9')">9</div>
+            </div><!--teclasLinha-->
+
+            <div class="teclasLinha">
+                <div class="teclas-botao" onclick="clicou('0')">0</div>
+            </div><!--teclasLinha-->
+
+            <div class="teclasLinha">
+                <div class="teclas-botao branco" onclick="branco()">BRANCO</div>
+                <div class="teclas-botao corrigir" onclick="corrige()">Corrige</div>
+                <div class="teclas-botao confirmar" onclick="confirma()">Confirma</div>
+            </div><!--teclasLinha-->
+        </div><!--teclas-->
+    </div><!--urna-->
+
+
+   
+
+    <script src="assets/js/etapas.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
